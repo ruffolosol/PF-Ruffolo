@@ -1,0 +1,36 @@
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+@import "estilos/compartidos";
+@import "html/index";
+@import "html/productos";
+@import "html/contacto";
+
+/*reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+/*Media queries*/
+@media(min-width: 600px) and (max-width: 1023px){
+    body{
+        font-size: 1.2rem;
+        color: rgb(19, 122, 224);
+    }
+    .img-footer{
+        display: none;
+    }
+}
+@media(min-width: 300px) and (max-width: 576px){
+    body{
+        background-color:$color-fondo-movil;
+        color: $color-boton;
+        font-size: 1rem;
+    }
+    .img-footer{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,30 @@
+.whatsapp{
+    margin: 20px;
+    grid-area: whatsapp;
+}
+.email{
+    margin: 10px;
+    grid-area: email;
+}
+.instagram{
+    margin: 10px;
+    grid-area: instagram ;
+}
+.ubicacion{
+    margin: 10px;
+    grid-area: ubicacion;
+}
+.contenedora{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows:1fr 1fr ;
+grid-template-areas: 
+"whatsapp email"
+"instagram ubicacion ";
+justify-content:center;
+grid-column-gap: 50px;
+grid-row-gap: 10px;
+}
+.contacto{
+        @extend %estilos-uno;
+    }

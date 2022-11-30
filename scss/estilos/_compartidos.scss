@@ -1,0 +1,28 @@
+ /*Estilos del body*/
+  body{
+    background-color:$color-fondo;
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+}
+.index{
+    margin: 50px;
+    width: 90%;
+    text-align:justify;
+}
+.texto{
+    background-position: center;
+}
+/*Estilos del footer*/
+.img-footer{
+    background-image: url(../Img/medios-pago.png);
+}
+.footer{
+    margin-top:auto;
+    padding: 10px;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

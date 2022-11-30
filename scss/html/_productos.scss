@@ -1,0 +1,32 @@
+.galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+.galeria__producto{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.galeria__producto img{
+    @include medidas(13em, 15em);
+}
+.grid__setter{
+    box-shadow: 2px 4px 7px 1px #00000024;
+    background-color: white;
+    border-radius: 1em;
+}
+.boton:hover{
+    background-color:$color-boton;
+    transform: scale(1.1);
+}
+.imagen-uno{
+    grid-area: uno;
+}
+.imagen-dos{
+    grid-area: dos;
+}
+.imagen-tres{
+    grid-area: tres;
+}
