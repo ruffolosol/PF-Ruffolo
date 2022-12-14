@@ -2,7 +2,6 @@
   margin: 10px;
   font-size: large;
   font-weight: bold; }
-
 /*Estilos del body*/
 body {
   background-color: #c0c6f3;
@@ -10,19 +9,15 @@ body {
   text-align: center;
   position: relative;
   min-height: 100vh; }
-
 .index {
   margin: 50px;
   width: 90%;
   text-align: justify; }
-
 .texto {
   background-position: center; }
-
 /*Estilos del footer*/
 .img-footer {
   background-image: url(../Img/medios-pago.png); }
-
 .footer {
   margin-top: auto;
   padding: 10px;
@@ -30,78 +25,62 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%; }
-
 div h3 {
   margin: 50px; }
-
 p {
   margin: 50px;
   text-align: center; }
-
 .galeria {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   margin: 30px; }
-
 .galeria__producto {
   display: flex;
   flex-direction: column;
   margin: 1em; }
-
 .galeria__producto img {
   width: 13em;
   height: 15em; }
-
 .grid__setter {
   box-shadow: 2px 4px 7px 1px #00000024;
   background-color: white;
   border-radius: 1em; }
-
 .boton:hover {
   background-color: white;
   transform: scale(1.1); }
-
 .imagen-uno {
   grid-area: uno; }
-
 .imagen-dos {
   grid-area: dos; }
-
 .imagen-tres {
   grid-area: tres; }
-
 .whatsapp {
   margin: 20px;
   grid-area: whatsapp; }
-
 .email {
   margin: 10px;
   grid-area: email; }
-
 .instagram {
   margin: 10px;
   grid-area: instagram; }
-
 .ubicacion {
   margin: 10px;
   grid-area: ubicacion; }
-
 .contenedora {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "whatsapp email" "instagram ubicacion ";
+  grid-template-areas: "whatsapp email"
+ "instagram ubicacion ";
   justify-content: center;
   grid-column-gap: 50px;
   grid-row-gap: 10px; }
-
 /*reseteo*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
 /*Media queries*/
 @media (min-width: 600px) and (max-width: 1023px) {
   body {
@@ -109,7 +88,6 @@ p {
     color: #137ae0; }
   .img-footer {
     display: none; } }
-
 @media (min-width: 300px) and (max-width: 576px) {
   body {
     background-color: black;
